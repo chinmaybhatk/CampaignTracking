@@ -1,0 +1,95 @@
+{
+ "creation": "2024-06-10",
+ "modified": "2024-06-10",
+ "modified_by": "Administrator",
+ "owner": "Administrator",
+ "doctype": "DocType",
+ "title_field": "short_code",
+ "search_fields": ["original_url", "utm_campaign"],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1,
+ "fields": [
+  {
+   "fieldname": "original_url",
+   "label": "Original URL",
+   "fieldtype": "Data",
+   "reqd": 1
+  },
+  {
+   "fieldname": "short_code",
+   "label": "Short Code",
+   "fieldtype": "Data",
+   "unique": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "utm_source",
+   "label": "UTM Source",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "utm_medium",
+   "label": "UTM Medium",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "utm_campaign",
+   "label": "UTM Campaign",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "utm_term",
+   "label": "UTM Term",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "utm_content",
+   "label": "UTM Content",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "tracking_section",
+   "label": "Tracking Details",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_clicks",
+   "label": "Total Clicks",
+   "fieldtype": "Int",
+   "read_only": 1,
+   "default": 0
+  },
+  {
+   "fieldname": "last_clicked",
+   "label": "Last Clicked",
+   "fieldtype": "Datetime",
+   "read_only": 1
+  },
+  {
+   "fieldname": "expiry_date",
+   "label": "Expiry Date",
+   "fieldtype": "Date"
+  },
+  {
+   "fieldname": "max_clicks_allowed",
+   "label": "Max Clicks Allowed",
+   "fieldtype": "Int"
+  }
+ ],
+ "naming_rule": "By Script",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ]
+}
