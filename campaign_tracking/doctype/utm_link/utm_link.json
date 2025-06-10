@@ -1,0 +1,29 @@
+{
+ "creation": "2024-06-10",
+ "modified": "2024-06-10",
+ "doctype": "DocType",
+ "title_field": "short_code",
+ "fields": [
+  {
+   "fieldname": "original_url",
+   "label": "Original URL",
+   "fieldtype": "Data",
+   "reqd": 1
+  },
+  {
+   "fieldname": "short_code",
+   "label": "Short Code",
+   "fieldtype": "Data",
+   "unique": 1
+  }
+ ],
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "read": 1,
+   "write": 1,
+   "role": "System Manager"
+  }
+ ]
+}
