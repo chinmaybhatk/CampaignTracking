@@ -2,9 +2,9 @@ from . import __version__ as app_version
 
 app_name = "campaign_tracking"
 app_title = "Campaign Tracking"
-app_publisher = "Frappe Technologies"
-app_description = "Advanced Campaign and UTM Link Tracking"
-app_email = "info@frappe.io"
+app_publisher = "Chinmay Bhatk"
+app_description = "Campaign and UTM Link Tracking"
+app_email = "chinmay@example.com"
 app_license = "MIT"
 app_version = app_version
 
