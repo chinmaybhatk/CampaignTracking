@@ -1,4 +1,4 @@
-# Campaign Tracking for Frappe
+# Campaign Tracking
 
 ## Features
 - Generate trackable UTM links
@@ -11,7 +11,7 @@
 2. `bench install-app campaign_tracking`
 
 ## Usage
-1. Create UTM Link
+1. Create a new UTM Link
 2. Generate short tracking URL
 3. Use in marketing campaigns
 4. Track performance in dashboard
@@ -19,7 +19,7 @@
 ## Configuration
 - Set link expiration
 - Configure click limits
-- Track geolocation and device information
+- Track detailed click information
 
 ## Requirements
 - Frappe v15+
