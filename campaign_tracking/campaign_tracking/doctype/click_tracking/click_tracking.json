@@ -1,0 +1,74 @@
+{
+ "creation": "2024-06-10",
+ "modified": "2024-06-10",
+ "modified_by": "Administrator",
+ "owner": "Administrator",
+ "doctype": "DocType",
+ "title_field": "utm_link",
+ "track_changes": 1,
+ "fields": [
+  {
+   "fieldname": "utm_link",
+   "label": "UTM Link",
+   "fieldtype": "Link",
+   "options": "UTM Link",
+   "reqd": 1
+  },
+  {
+   "fieldname": "clicked_at",
+   "label": "Clicked At",
+   "fieldtype": "Datetime",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ip_address",
+   "label": "IP Address",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "user_agent",
+   "label": "User Agent",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "referrer",
+   "label": "Referrer URL",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "geo_section",
+   "label": "Geolocation",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "country",
+   "label": "Country",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "region",
+   "label": "Region/State",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "city",
+   "label": "City",
+   "fieldtype": "Data"
+  }
+ ],
+ "naming_rule": "Auto Increment",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ]
+}
