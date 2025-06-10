@@ -1,0 +1,10 @@
+{
+    "app_name": "campaign_tracking",
+    "app_title": "Campaign Tracking",
+    "app_publisher": "Chinmay Bhatk",
+    "app_description": "Campaign and UTM Link Tracking",
+    "app_icon": "octicon octicon-graph",
+    "app_color": "#589494",
+    "app_email": "chinmay@example.com",
+    "app_license": "MIT"
+}
