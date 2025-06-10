@@ -1,0 +1,6 @@
+# Click Tracking DocType Patches
+# This file can be used for any database migrations or patches specific to Click Tracking DocType
+# Example: Adding a new field, modifying existing field properties, etc.
+
+# Initial setup patches can be added here
+# Currently empty as no specific patches are required
