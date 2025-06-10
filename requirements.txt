@@ -1,0 +1,4 @@
+frappe>=15.0.0
+shortuuid
+geoip2
+user-agents
